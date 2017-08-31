@@ -1,0 +1,2295 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=1&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:41 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '527'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '194'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "22b00fa2-a651-4164-8913-b240afca76ca",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mwhfjJRe44HKz3cNSVzNS3NuStUDLn2m61",
+            "mining_fees_satoshis": 70000,
+            "callback_url": "https://callback.com"
+          },
+          {
+            "id": "262b567a-c013-48d3-9ab9-fcb8085eac43",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "moBTGVS4LUfMYrxjctqHtqF1S1ZeTkiBew"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:41 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=7&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:42 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '191'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "61623a5c-aec1-4e41-8543-aca3e1e3ef0b",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mgoAuHrsKrpLt33UXNazyaYJpzSzR3H4Ru"
+          },
+          {
+            "id": "64ac582c-08e2-4202-a24e-427531ab9559",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mjUf6DDwPK5QGYXHXtBehjtt2i1RTfXarp"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:42 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=9&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:42 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "6a011936-b337-4382-8400-aa66b91410c0",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mx8GYKWXfrHktkACPQ4MzKn2KiVEkGDxhJ"
+          },
+          {
+            "id": "6e25d9bc-8bed-4ced-91f7-d0cb742761a0",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mz1xKZmQ9saKn1rKCqG4ExnWcxbDJV26jT"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:42 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=11&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:42 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '492'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "768b0522-78d8-4834-9dc8-7d1207ad1f5e",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "n39BY3B5HmjWQEFSm19BQ5s2HYBQHGouNo"
+          },
+          {
+            "id": "7fd12612-eaea-426d-b1d4-6ffe6f25152e",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mx7oAU4Wm8bWiBq3tUSezDD9MUfRgnxVrm",
+            "callback_url": "https://callback.com"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:43 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=13&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '188'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "93adbb0b-c374-4f43-8403-78750b098da1",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mpjLjG8nrp2iKmJHzzp9ppFpQJEEkXWuZT"
+          },
+          {
+            "id": "99c73321-a14e-42b4-a867-ec2fc33c79ec",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mrMnWze2HnJmXYeZQ9FaGNR8QuoXJxj1AD"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:43 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=15&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "a68955cc-0b0b-4768-b974-80409020bd80",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mknXpBx8Npmw7LHeaHhT4xQmBZAJWXSzzW"
+          },
+          {
+            "id": "a8bb7f11-766d-4a9b-8a77-162b40f35071",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "n298jGu4AvSUuCaJeZnL5xyCsehp82myKz"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:43 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=17&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "ab022fdc-8fb2-4555-83ae-fa461c2bce17",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "msPFe2B6ctRFApGcWsEy9uZuaFygKYbWjw"
+          },
+          {
+            "id": "b12d68fa-35f1-4251-ae13-2d92222d1acf",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mymGgy4HcN9uSo25FPH5Yo1WSzxcbHMxAj"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:44 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=19&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '185'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "b31e9f9e-fd50-462e-b2cf-9e8384b668e8",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "moF2UUtobTE8ZQ1JbyEXMJLESconRDwU5o"
+          },
+          {
+            "id": "b5cb19d6-2a98-4b7c-b6c0-98389572d136",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mmJZjPQxaZR24n7fqagqm3UwHFPXssCZfL"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:44 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=21&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "da62bac0-39c4-4319-b649-5d884ae22d29",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mxFoR8cxmPFW2JkyfqQXd26jFgioXfgRWX"
+          },
+          {
+            "id": "e0ead799-ee1c-436e-8879-bf5d3c1905b5",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "n3ubA811TGpJ5Gy885AyiB5mNWKaj4eeZW"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:44 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=23&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '527'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "1e64cb5b-247f-4b8b-8a63-eeaa5b0eb4c9",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mkPxBAStgkbngNz7sDuHaYYFoRz338HksX"
+          },
+          {
+            "id": "22b00fa2-a651-4164-8913-b240afca76ca",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mwhfjJRe44HKz3cNSVzNS3NuStUDLn2m61",
+            "mining_fees_satoshis": 70000,
+            "callback_url": "https://callback.com"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:44 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=25&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:19:45 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '527'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '182'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "1e64cb5b-247f-4b8b-8a63-eeaa5b0eb4c9",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mkPxBAStgkbngNz7sDuHaYYFoRz338HksX"
+          },
+          {
+            "id": "22b00fa2-a651-4164-8913-b240afca76ca",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mwhfjJRe44HKz3cNSVzNS3NuStUDLn2m61",
+            "mining_fees_satoshis": 70000,
+            "callback_url": "https://callback.com"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:19:45 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=200&start=1&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '189'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "1969375a-d496-44ae-b965-eccf2c83e583",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mtHoVXh1w5HT8oSK4TGyXWVN7GAZdZrqJs"
+          },
+          {
+            "id": "1e64cb5b-247f-4b8b-8a63-eeaa5b0eb4c9",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mkPxBAStgkbngNz7sDuHaYYFoRz338HksX"
+          },
+          {
+            "id": "22b00fa2-a651-4164-8913-b240afca76ca",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mwhfjJRe44HKz3cNSVzNS3NuStUDLn2m61",
+            "mining_fees_satoshis": 70000,
+            "callback_url": "https://callback.com"
+          },
+          {
+            "id": "262b567a-c013-48d3-9ab9-fcb8085eac43",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "moBTGVS4LUfMYrxjctqHtqF1S1ZeTkiBew"
+          },
+          {
+            "id": "30748133-c510-4799-8b2b-b382eec208fd",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "n4QjEThSV43QVZZPSbUMeNfNFXpvAqeax8"
+          },
+          {
+            "id": "36782e05-13fe-4b5c-9fd1-59dab78b8dca",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "n1uXMv1eJuujX8Yox8mA7cNz4SbautVs2r"
+          },
+          {
+            "id": "460d7d3a-2caa-4700-a2b9-f49c54c32a82",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mftbzwzMN3cTwP4q4gfasodzgogLBEcKHP"
+          },
+          {
+            "id": "49087138-6057-4c30-a7bf-49851709b06b",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mrPAgQ16SPEkaPAs2xBxcFpnVBT8nxbbrt"
+          },
+          {
+            "id": "4f3b2e9a-933e-4d3d-b99d-8f1dba98b229",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mpA6Ffx7Qd3rSfjVzMdBW3ziduNvjAesu5"
+          },
+          {
+            "id": "5c22e9b3-8470-4295-a475-bb2ea76e6ce9",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mnDHbV2HDr6mhULG4P67KQJFoKZnvRaLPH"
+          },
+          {
+            "id": "5ee78f51-7bef-4eee-a0d4-1434c677dd16",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mrc1SpYDMwt4Rvq472s48R7NCpodrjCdF2"
+          },
+          {
+            "id": "61623a5c-aec1-4e41-8543-aca3e1e3ef0b",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mgoAuHrsKrpLt33UXNazyaYJpzSzR3H4Ru"
+          },
+          {
+            "id": "64ac582c-08e2-4202-a24e-427531ab9559",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mjUf6DDwPK5QGYXHXtBehjtt2i1RTfXarp"
+          },
+          {
+            "id": "6a011936-b337-4382-8400-aa66b91410c0",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mx8GYKWXfrHktkACPQ4MzKn2KiVEkGDxhJ"
+          },
+          {
+            "id": "6e25d9bc-8bed-4ced-91f7-d0cb742761a0",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mz1xKZmQ9saKn1rKCqG4ExnWcxbDJV26jT"
+          },
+          {
+            "id": "730fa978-8511-40d1-a3fa-1ab648a28975",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mh8ME4DeaerbAEnSYmz4enhCRstGQSdVKB"
+          },
+          {
+            "id": "768b0522-78d8-4834-9dc8-7d1207ad1f5e",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "n39BY3B5HmjWQEFSm19BQ5s2HYBQHGouNo"
+          },
+          {
+            "id": "7fd12612-eaea-426d-b1d4-6ffe6f25152e",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mx7oAU4Wm8bWiBq3tUSezDD9MUfRgnxVrm",
+            "callback_url": "https://callback.com"
+          },
+          {
+            "id": "93adbb0b-c374-4f43-8403-78750b098da1",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mpjLjG8nrp2iKmJHzzp9ppFpQJEEkXWuZT"
+          },
+          {
+            "id": "99c73321-a14e-42b4-a867-ec2fc33c79ec",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mrMnWze2HnJmXYeZQ9FaGNR8QuoXJxj1AD"
+          },
+          {
+            "id": "9fe55a86-f00d-440e-920b-8254eb2019ab",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "myo7Z8No6T6TLpCN1frQXMtj53qB1a5wFD"
+          },
+          {
+            "id": "a68955cc-0b0b-4768-b974-80409020bd80",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mknXpBx8Npmw7LHeaHhT4xQmBZAJWXSzzW"
+          },
+          {
+            "id": "a8bb7f11-766d-4a9b-8a77-162b40f35071",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "n298jGu4AvSUuCaJeZnL5xyCsehp82myKz"
+          },
+          {
+            "id": "ab022fdc-8fb2-4555-83ae-fa461c2bce17",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "msPFe2B6ctRFApGcWsEy9uZuaFygKYbWjw"
+          },
+          {
+            "id": "b12d68fa-35f1-4251-ae13-2d92222d1acf",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mymGgy4HcN9uSo25FPH5Yo1WSzxcbHMxAj"
+          },
+          {
+            "id": "b26916e9-ad02-4bc5-abc1-c2a5f7248999",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mhDEsXVkRmuFxY3nNev7QqKMFfadAMUz39"
+          },
+          {
+            "id": "b31e9f9e-fd50-462e-b2cf-9e8384b668e8",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "moF2UUtobTE8ZQ1JbyEXMJLESconRDwU5o"
+          },
+          {
+            "id": "b5cb19d6-2a98-4b7c-b6c0-98389572d136",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mmJZjPQxaZR24n7fqagqm3UwHFPXssCZfL"
+          },
+          {
+            "id": "c566e184-ab3f-422a-9531-1035a14d297c",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mxH11rPGqn3as2iBaDBexPQnnd4cuBTpXz"
+          },
+          {
+            "id": "da62bac0-39c4-4319-b649-5d884ae22d29",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mxFoR8cxmPFW2JkyfqQXd26jFgioXfgRWX"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:00 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=200&start=31&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:00 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:00 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/1969375a-d496-44ae-b965-eccf2c83e583
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:00 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '86'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:01 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/1e64cb5b-247f-4b8b-8a63-eeaa5b0eb4c9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:01 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '85'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:01 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/22b00fa2-a651-4164-8913-b240afca76ca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:01 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:01 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/262b567a-c013-48d3-9ab9-fcb8085eac43
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:01 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:01 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/30748133-c510-4799-8b2b-b382eec208fd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:02 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '82'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:02 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/36782e05-13fe-4b5c-9fd1-59dab78b8dca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:02 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:02 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/460d7d3a-2caa-4700-a2b9-f49c54c32a82
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:02 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:02 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/49087138-6057-4c30-a7bf-49851709b06b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:02 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '126'
+      Connection:
+      - keep-alive
+      X-Content-Type-Options:
+      - nosniff
+      X-Ratelimit-Remaining:
+      - "-1"
+    body:
+      encoding: UTF-8
+      string: '{"error": "API calls limits have been reached. To extend your limits
+        please upgrade your plan on BlockCypher accounts page."}
+
+'
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:03 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/4f3b2e9a-933e-4d3d-b99d-8f1dba98b229
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:03 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '78'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:03 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/5c22e9b3-8470-4295-a475-bb2ea76e6ce9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:03 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:03 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/5ee78f51-7bef-4eee-a0d4-1434c677dd16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:03 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:04 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/61623a5c-aec1-4e41-8543-aca3e1e3ef0b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:04 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '75'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:04 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/64ac582c-08e2-4202-a24e-427531ab9559
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:04 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:04 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/6a011936-b337-4382-8400-aa66b91410c0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:04 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:05 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/6e25d9bc-8bed-4ced-91f7-d0cb742761a0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:05 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '72'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:05 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/730fa978-8511-40d1-a3fa-1ab648a28975
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:05 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:05 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/768b0522-78d8-4834-9dc8-7d1207ad1f5e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:05 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:05 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/7fd12612-eaea-426d-b1d4-6ffe6f25152e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:06 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '69'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:06 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/93adbb0b-c374-4f43-8403-78750b098da1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:06 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:06 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/99c73321-a14e-42b4-a867-ec2fc33c79ec
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:06 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:06 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/9fe55a86-f00d-440e-920b-8254eb2019ab
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:06 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '126'
+      Connection:
+      - keep-alive
+      X-Content-Type-Options:
+      - nosniff
+      X-Ratelimit-Remaining:
+      - "-1"
+    body:
+      encoding: UTF-8
+      string: '{"error": "API calls limits have been reached. To extend your limits
+        please upgrade your plan on BlockCypher accounts page."}
+
+'
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:07 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/a68955cc-0b0b-4768-b974-80409020bd80
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:07 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '65'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:07 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/a8bb7f11-766d-4a9b-8a77-162b40f35071
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:07 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:07 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/ab022fdc-8fb2-4555-83ae-fa461c2bce17
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:07 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:08 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/b12d68fa-35f1-4251-ae13-2d92222d1acf
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:08 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '62'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:08 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/b26916e9-ad02-4bc5-abc1-c2a5f7248999
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:08 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:08 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/b31e9f9e-fd50-462e-b2cf-9e8384b668e8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:08 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:09 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/b5cb19d6-2a98-4b7c-b6c0-98389572d136
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:09 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '59'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:09 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/c566e184-ab3f-422a-9531-1035a14d297c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:09 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:09 GMT
+- request:
+    method: delete
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/da62bac0-39c4-4319-b649-5d884ae22d29
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:09 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:09 GMT
+- request:
+    method: post
+    uri: https://api.blockcypher.com/v1/btc/test3/payments
+    body:
+      encoding: UTF-8
+      string: '{"token":"<token>","destination":"n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR","input_address":null,"process_fees_address":null,"process_fees_satoshis":null,"process_fees_percent":null,"callback_url":null,"enable_confirmations":null,"mining_fees_satoshis":null}'
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '209'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '56'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": "26d6466d-969b-4408-994c-f4adff750cdf",
+          "token": "<token>",
+          "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+          "input_address": "mrqfqjrH1KmLSrNGsHjCeTV96sruBkRamV"
+        }
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:10 GMT
+- request:
+    method: post
+    uri: https://api.blockcypher.com/v1/btc/test3/payments
+    body:
+      encoding: UTF-8
+      string: '{"token":"<token>","destination":"muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh","input_address":null,"process_fees_address":null,"process_fees_satoshis":null,"process_fees_percent":null,"callback_url":null,"enable_confirmations":null,"mining_fees_satoshis":null}'
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '209'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": "8ad6ea55-85e8-45a8-a873-af30c7c988ff",
+          "token": "<token>",
+          "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+          "input_address": "mo9SRfGy6rB6svSpuY184fT5ZMEnCxeQpi"
+        }
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:10 GMT
+- request:
+    method: post
+    uri: https://api.blockcypher.com/v1/btc/test3/payments
+    body:
+      encoding: UTF-8
+      string: '{"token":"<token>","destination":"n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv","input_address":null,"process_fees_address":null,"process_fees_satoshis":null,"process_fees_percent":null,"callback_url":null,"enable_confirmations":null,"mining_fees_satoshis":null}'
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '209'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": "ad56939a-ffc2-480a-af18-b48fd14f67e4",
+          "token": "<token>",
+          "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+          "input_address": "mhS2UXcHX2W5YR74rz4rdYZpWgetgE1kXs"
+        }
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:10 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=1&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '187'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "26d6466d-969b-4408-994c-f4adff750cdf",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "mrqfqjrH1KmLSrNGsHjCeTV96sruBkRamV"
+          },
+          {
+            "id": "49087138-6057-4c30-a7bf-49851709b06b",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mrPAgQ16SPEkaPAs2xBxcFpnVBT8nxbbrt"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:11 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=3&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:11 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '186'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "8ad6ea55-85e8-45a8-a873-af30c7c988ff",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mo9SRfGy6rB6svSpuY184fT5ZMEnCxeQpi"
+          },
+          {
+            "id": "9fe55a86-f00d-440e-920b-8254eb2019ab",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "myo7Z8No6T6TLpCN1frQXMtj53qB1a5wFD"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:11 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=5&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:11 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '225'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "ad56939a-ffc2-480a-af18-b48fd14f67e4",
+            "token": "<token>",
+            "destination": "n4K1HUdrN1WNhxX82ewpmL63MAzH6bY5Gv",
+            "input_address": "mhS2UXcHX2W5YR74rz4rdYZpWgetgE1kXs"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:11 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=6&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:44:11 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:44:12 GMT
+recorded_with: VCR 3.0.3

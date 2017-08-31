@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments?limit=2&start=1&token=<token>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 12:44:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '527'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '198'
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": "22b00fa2-a651-4164-8913-b240afca76ca",
+            "token": "<token>",
+            "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+            "input_address": "mwhfjJRe44HKz3cNSVzNS3NuStUDLn2m61",
+            "mining_fees_satoshis": 70000,
+            "callback_url": "https://callback.com"
+          },
+          {
+            "id": "262b567a-c013-48d3-9ab9-fcb8085eac43",
+            "token": "<token>",
+            "destination": "n4juNHKFJrV1zVMs29gNP79w89E2gJxhNR",
+            "input_address": "moBTGVS4LUfMYrxjctqHtqF1S1ZeTkiBew"
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 12:44:44 GMT
+recorded_with: VCR 3.0.3

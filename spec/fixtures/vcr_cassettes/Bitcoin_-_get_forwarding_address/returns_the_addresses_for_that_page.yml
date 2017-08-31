@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.blockcypher.com/v1/btc/test3/payments
+    body:
+      encoding: UTF-8
+      string: '{"token":"<token>","destination":"muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh","input_address":null,"process_fees_address":null,"process_fees_satoshis":null,"process_fees_percent":null,"callback_url":null,"enable_confirmations":null,"mining_fees_satoshis":null}'
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:29:53 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '209'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '99'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": "c566e184-ab3f-422a-9531-1035a14d297c",
+          "token": "<token>",
+          "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+          "input_address": "mxH11rPGqn3as2iBaDBexPQnnd4cuBTpXz"
+        }
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:29:54 GMT
+- request:
+    method: get
+    uri: https://api.blockcypher.com/v1/btc/test3/payments/c566e184-ab3f-422a-9531-1035a14d297c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.13.4
+      Date:
+      - Thu, 31 Aug 2017 13:29:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '209'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Ratelimit-Remaining:
+      - '98'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": "c566e184-ab3f-422a-9531-1035a14d297c",
+          "token": "<token>",
+          "destination": "muTsnH2h6Tg3jGPrVNS3V4HuidbsbWGMdh",
+          "input_address": "mxH11rPGqn3as2iBaDBexPQnnd4cuBTpXz"
+        }
+    http_version: 
+  recorded_at: Thu, 31 Aug 2017 13:29:54 GMT
+recorded_with: VCR 3.0.3
